@@ -4,7 +4,7 @@ heroImage: /hero.png
 heroText: Laratomics
 tagline: Pattern Library for your Laravel Project
 actionText: Let's get ready to rumble
-actionLink: /guide/
+actionLink: /documentation/
 features:
 - title: Simplicity First
   details: Minimal setup with markdown-centered project structure helps you focus on writing.
