@@ -3,30 +3,27 @@ module.exports = {
   dest: 'docs',
 
   themeConfig: {
+    repo: 'poolingpeople/laratomics-workshop',
     nav: [
       {
         text: 'Documentation',
-        link: '/documentation/'
-      },
-      {
-        text: 'Github',
-        link: 'https://github.com/poolingpeople/laratomics-workshop'
+        link: '/setup/'
       }
     ],
     sidebar: [
       {
         title: 'Setup',
         children: [
-          '/documentation/installation',
-          '/documentation/configuration'
+          ['/setup/', 'Installation'],
+          '/setup/configuration'
         ]
       },
       {
         title: 'Usage',
         children: [
-          '/documentation/usage',
-          '/documentation/dashboard',
-          '/documentation/create-pattern'
+          '/usage/',
+          '/usage/dashboard',
+          '/usage/create-pattern'
         ]
       }
     ]
