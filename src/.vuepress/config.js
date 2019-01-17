@@ -4,6 +4,7 @@ module.exports = {
 
   themeConfig: {
     repo: 'poolingpeople/laratomics-workshop',
+    lastUpdated: true,
     nav: [
       {
         text: 'Documentation',
@@ -15,7 +16,8 @@ module.exports = {
         title: 'Setup',
         children: [
           ['/setup/', 'Installation'],
-          '/setup/configuration'
+          '/setup/configuration',
+          '/setup/finish',
         ]
       },
       {
