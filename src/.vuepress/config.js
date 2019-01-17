@@ -1,4 +1,4 @@
 module.exports = {
-  base: '/laratomics-website',
+  base: '/laratomics-website/',
   dest: 'docs',
 };
