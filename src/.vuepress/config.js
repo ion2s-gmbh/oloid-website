@@ -29,7 +29,7 @@ module.exports = {
       {
         title: 'Usage',
         children: [
-          '/usage/',
+          ['/usage/', 'Opening the workshop'],
           '/usage/dashboard',
           '/usage/create-pattern'
         ]
