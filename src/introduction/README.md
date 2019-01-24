@@ -21,3 +21,7 @@ independent from their backend colleagues by using easy to manage dummy data.
 ## We call it workshop
 We call the developer GUI **workshop**. It's a place, where you craft your website with a lot of tools, that support 
 your creative workflow.
+
+## What is a pattern?
+You might now partials or subviews. Think of patterns as reusable template snippets (partials) that you can use in 
+your project's templates.
