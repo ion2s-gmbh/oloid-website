@@ -1,7 +1,11 @@
 ---
-title: Finish the installation
+title: Finishing touches
 ---
-# Finish the installation
+# Finishing touches
+
+[[toc]]
+
+## Finish the installation
 Finally, you finish the installation by running:
 
 ```bash
@@ -10,6 +14,16 @@ php artisan workshop:install
 
 This command will configure your Laravel project to use oloid-laravel-patternlib
 and publish some of our assets/resources.
+
+## Basic folder structure
+After running `php artisan workshop:install` you'll find an empty folder structure in your Laravel project's resources
+folder:
+```bash
+oloid
+├── dependencies.json // (optional)
+└── patterns
+
+```
 
 ## Laravel configuration
 In order to use the generated patterns we must tell Laravel, where to find these additional Blade templates.

@@ -31,7 +31,9 @@ module.exports = {
         children: [
           ['/usage/', 'Opening the workshop'],
           '/usage/dashboard',
-          '/usage/create-pattern'
+          '/usage/create-pattern',
+          '/usage/preview-pattern',
+          '/usage/remove-pattern'
         ]
       }
     ]
