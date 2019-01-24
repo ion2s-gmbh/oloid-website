@@ -1,9 +1,9 @@
 module.exports = {
-  base: '/laratomics-website/',
+  base: '/oloid-website/',
   dest: 'docs',
 
   themeConfig: {
-    repo: 'poolingpeople/laratomics-workshop',
+    repo: 'ion2s-gmbh/oloid-laravel-patternlib',
     lastUpdated: true,
     nav: [
       {
@@ -30,5 +30,4 @@ module.exports = {
       }
     ]
   }
-}
-;
+};
