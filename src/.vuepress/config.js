@@ -9,6 +9,10 @@ module.exports = {
       {
         text: 'Documentation',
         link: '/introduction/'
+      },
+      {
+        text: 'ion2s Gmbh',
+        link: 'https://www.ion2s.com'
       }
     ],
     sidebar: [
@@ -33,7 +37,11 @@ module.exports = {
           '/usage/dashboard',
           '/usage/create-pattern',
           '/usage/preview-pattern',
-          '/usage/remove-pattern'
+          '/usage/remove-pattern',
+          '/usage/use-pattern',
+          '/usage/rename-pattern',
+          '/usage/global-dependencies',
+          '/usage/shortcuts'
         ]
       }
     ]
