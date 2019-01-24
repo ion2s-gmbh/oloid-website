@@ -8,14 +8,20 @@ module.exports = {
     nav: [
       {
         text: 'Documentation',
-        link: '/setup/'
+        link: '/introduction/'
       }
     ],
     sidebar: [
       {
+        title: 'Introduction',
+        children: [
+          ['/introduction/', 'What it is']
+        ]
+      },
+      {
         title: 'Setup',
         children: [
-          ['/setup/', 'Installation'],
+          ['/setup/', 'Get started'],
           '/setup/configuration',
           '/setup/finish',
         ]

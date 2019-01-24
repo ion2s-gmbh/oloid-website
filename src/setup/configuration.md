@@ -10,6 +10,6 @@ The `WORKSHOP_PATTERN_PATH` should be a subpath of `WORKSHOP_BASE_PATH`.
 
 ```dotenv
 WORKSHOP_URI=workshop
-WORKSHOP_BASE_PATH=laratomics
+WORKSHOP_BASE_PATH=oloid
 WORKSHOP_PATTERN_PATH="${WORKSHOP_BASE_PATH}/patterns"
 ```
