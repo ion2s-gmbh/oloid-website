@@ -7,6 +7,10 @@ module.exports = {
   themeConfig: {
     repo: 'ion2s-gmbh/oloid-laravel-patternlib',
     lastUpdated: true,
+    docsRepo: 'ion2s-gmbh/oloid-website',
+    docsDir: 'src',
+    editLinks: true,
+    editLinkText: 'You\'re welcome to improve this page.',
     nav: [
       {
         text: 'Documentation',
