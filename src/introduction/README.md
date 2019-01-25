@@ -3,7 +3,7 @@ title: About oloid-laravel-patternlib
 prev: /
 ---
 # What is it?
-With oloid-laravel-patternlib, a web developer extends a Laravel based project by a web developer GUI. The GUI lets 
+With oloid-laravel-patternlib, a web developer extends a [Laravel](https://laravel.com/) based project by a web developer GUI. The GUI lets 
 you create and manage component-based templates easier and faster than ever before. You gain an overview of all 
 templates that are used in the project and a focused preview of each template. A huge benefit for teams: With 
 oloid-laravel-patternlib you can enable a status based approval process in your team. Frontend developers become more 

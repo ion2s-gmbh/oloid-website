@@ -3,7 +3,7 @@ title: Get started
 ---
 # Installation of the package
 
-The package can be installed by using composer.
+The package can be installed by using [composer](https://getcomposer.org/).
 
 ```bash
 composer require ion2s/oloid-laravel-patternlib
