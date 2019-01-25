@@ -46,7 +46,7 @@ module.exports = {
       {
         title: 'Usage',
         children: [
-          ['/usage/', 'Opening the workshop'],
+          ['/usage/', 'Entering the workshop'],
           '/usage/dashboard',
           '/usage/create-pattern',
           '/usage/use-pattern',
