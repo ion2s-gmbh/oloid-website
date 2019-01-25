@@ -1,9 +1,9 @@
 ---
-title: CHANGELOG
+title: Changelog
 editLink: false
 ---
 
-# CHANGELOG
+# Changelog
 
 ## 0.5.0 <Badge text="alpha" type="error"/>
 * Finishing touches on our alpha version

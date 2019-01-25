@@ -19,7 +19,7 @@ module.exports = {
         link: '/introduction/'
       },
       {
-        text: 'CHANGELOG',
+        text: 'Changelog',
         link: '/changelog.md'
       },
       {
