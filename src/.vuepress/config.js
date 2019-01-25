@@ -49,9 +49,9 @@ module.exports = {
           ['/usage/', 'Opening the workshop'],
           '/usage/dashboard',
           '/usage/create-pattern',
+          '/usage/use-pattern',
           '/usage/preview-pattern',
           '/usage/remove-pattern',
-          '/usage/use-pattern',
           '/usage/rename-pattern',
           '/usage/global-dependencies',
           '/usage/shortcuts'
