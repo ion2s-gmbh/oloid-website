@@ -94,3 +94,13 @@ The scss file contains the required style for this pattern.
 ```
 
 After creating a new pattern you are redirected to the preview page of the pattern. In the beginning, this view is more or less empty unless you start coding.
+
+### Importing the patterns.scss
+Make sure that you import the newly created WORKSHOP_PATTERN_PATH/patterns.scss file in your application's main app.scss file, in order to use your style definitions.
+```scss
+@import '../oloid/patterns/patterns';
+```
+
+::: warning
+Run `npm run dev` to compile your frontend.
+:::
