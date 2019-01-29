@@ -26,6 +26,17 @@ as the directive's name. See the following example:
 Of course, you can reference patterns in other patterns, too.
 :::
 
+## Referencing unested patterns
+If you have a pattern named `landingpage`, that does not contain a dot and is therefore not nested, you can reference it like this:
+
+```php
+@landingpage('', [])
+```
+
+::: warning
+You just leave the first argument an empty string. The second argument can be an array with values, that are used in the pattern.
+:::
+
 ## Replacing dynamic content
 By passing an array as the second argument to the reference of a pattern, you can pass dynamic variables, that come 
 from your backend implementation.
