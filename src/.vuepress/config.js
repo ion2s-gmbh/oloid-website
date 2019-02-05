@@ -53,7 +53,7 @@ module.exports = {
           '/usage/preview-pattern',
           '/usage/remove-pattern',
           '/usage/rename-pattern',
-          '/usage/global-dependencies',
+          '/usage/global-resources',
           '/usage/shortcuts'
         ]
       }
