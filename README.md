@@ -17,7 +17,7 @@ cd oloid-website
 
 * For development (with browsersync) run:
 ```bash
-npm run dev
+npm run watch
 ```
 
 * For a production build run:
