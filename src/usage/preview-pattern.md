@@ -6,7 +6,7 @@ title: Preview a pattern
 The preview page of a pattern is shown after creating a new pattern or by navigation to a certain pattern via the top
 navigation.
 
-## Informatino about the pattern
+## Information about the pattern
 * blade code
 * generated HTML code
 * scss code
@@ -17,8 +17,8 @@ navigation.
 * view and edit the description
 * copy the pattern's usage
 * open the pattern in full screen
-* rename the pattern
-* remove the pattern
+* rename the pattern (Keyboard shortcut `e`)
+* remove the pattern (Keyboard shortcut `d`)
 
 ::: tip Status alerts
 If your pattern uses other patterns, that have the status `rejected`, you will be notified.
