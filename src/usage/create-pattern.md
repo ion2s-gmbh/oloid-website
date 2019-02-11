@@ -7,7 +7,7 @@ title: Create a new Pattern
 
 ## Create a new pattern within the workshop
 You can create a new pattern by clicking the button at the top right corner of the workshop or by using the shortcut 
-`Ctrl + C`. This will open the form to create a new pattern.
+`c`. This will open the form to create a new pattern.
 
 The pattern has to have a name. The name can be nested by using the dot-notation that you are familiar with the Blade
 view notation.
@@ -98,7 +98,7 @@ After creating a new pattern you are redirected to the preview page of the patte
 ### Importing the patterns.scss
 Make sure that you import the newly created WORKSHOP_PATTERN_PATH/patterns.scss file in your application's main app.scss file, in order to use your style definitions.
 ```scss
-@import '../oloid/patterns/patterns';
+@import '../views/patterns/patterns';
 ```
 
 ::: warning
