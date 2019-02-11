@@ -13,3 +13,12 @@ WORKSHOP_URI=workshop
 WORKSHOP_BASE_PATH=oloid
 WORKSHOP_PATTERN_PATH="${WORKSHOP_BASE_PATH}/patterns"
 ```
+
+## Go with the default
+You can stick to the default, too. Then you'll find all your patterns in Laravel's resources/views folder.
+
+```dotenv
+WORKSHOP_URI=workshop
+WORKSHOP_BASE_PATH=views
+WORKSHOP_PATTERN_PATH="${WORKSHOP_BASE_PATH}/patterns"
+```
