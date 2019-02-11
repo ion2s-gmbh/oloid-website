@@ -2,8 +2,6 @@ module.exports = {
   base: '/oloid-website/',
   dest: 'docs',
 
-  plugins: ['@vuepress/back-to-top'],
-
   themeConfig: {
     repo: 'ion2s-gmbh/oloid-laravel-patternlib',
 
@@ -41,6 +39,7 @@ module.exports = {
           ['/setup/', 'Get started'],
           '/setup/configuration',
           '/setup/finish',
+          '/setup/installation-details',
         ]
       },
       {
