@@ -154,14 +154,14 @@ export default {
 <style lang="stylus">
 @import './styles/config.styl'
 
-.search-box
+.search-box  
   display inline-block
   position relative
   margin-right 1rem
   input
     cursor text
     width 10rem
-    color lighten($textColor, 25%)
+    color $oloidPrimary
     display inline-block
     border 1px solid darken($borderColor, 10%)
     border-radius 2rem

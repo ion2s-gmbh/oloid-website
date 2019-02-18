@@ -11,6 +11,7 @@ html, body
   margin 0
 
 body
+  background-color: $oloidPrimary
   font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
@@ -18,6 +19,7 @@ body
   color $textColor
 
 .page
+  min-height 100vh
   padding-left $sidebarWidth
 
 .navbar
@@ -27,9 +29,9 @@ body
   left 0
   right 0
   height $navbarHeight
-  background-color #fff
+  color: $textColor;
+  background-color $oloidPrimary
   box-sizing border-box
-  border-bottom 1px solid $borderColor
 
 .sidebar-mask
   position fixed
@@ -42,7 +44,8 @@ body
 
 .sidebar
   font-size 15px
-  background-color #fff
+  background-color $oloidPrimary
+  color $textColor
   width $sidebarWidth
   position fixed
   z-index 10
@@ -67,11 +70,20 @@ body
   img
     max-width 100%
 
+.page
+  background $textColor
+  color $oloidPrimary
+
 .content.custom
   padding 0
   margin 0
   img
     max-width 100%
+
+.navbar 
+  .links 
+    background inherit
+    font-family 'Roboto Mono', monospace;
 
 a
   font-weight 500
