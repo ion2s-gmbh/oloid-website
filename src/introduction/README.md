@@ -23,5 +23,5 @@ We call the developer GUI **workshop**. It's a place, where you craft your websi
 your creative workflow.
 
 ## What is a pattern?
-You might now partials or subviews. Think of patterns as reusable template snippets (partials) that you can use in 
+You might know partials or subviews. Think of patterns as reusable template snippets (partials) that you can use in 
 your project's templates.

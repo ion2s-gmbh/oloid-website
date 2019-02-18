@@ -38,7 +38,7 @@ The workshop creates three files for each pattern (e.g. buttons.submit)
 The scss file is automatically imported in a base scss file called pattern.scss. You have to import this file in your
 app's `app.scss` file in order to use your pattern's stylings.
 
-Now head over to your to your IDE and open one of the created files to start coding.
+Now head over to your IDE and open one of the created files to start coding.
 
 ## Code the Blade file
 In your Blade file, you can write Blade code as usual. You can use variables, too.

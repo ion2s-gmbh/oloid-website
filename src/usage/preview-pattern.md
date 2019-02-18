@@ -23,3 +23,8 @@ navigation.
 ::: tip Status alerts
 If your pattern uses other patterns, that have the status `rejected`, you will be notified.
 :::
+
+::: danger
+Notifications about rejected patterns currently only work if you use the workshop's custom blade directives to use patterns.
+See also this [issue](https://github.com/ion2s-gmbh/oloid-laravel-patternlib/issues/5)
+:::

@@ -3,7 +3,7 @@ title: Using patterns
 ---
 # Use a pattern
 Now that you have created a new pattern, let's use it in our templates.
-Suppose we want to place a submit button on the welcome page of our Laravel app. You have to possibilies:
+Suppose we want to place a submit button on the welcome page of our Laravel app. You have two possibilies:
 
 ## Using Blade includes
 ```php

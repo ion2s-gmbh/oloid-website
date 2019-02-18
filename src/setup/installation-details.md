@@ -15,10 +15,22 @@ views
 └── patterns
 ```
 
+```bash
+resources/
+└── views
+    ├── auth
+    ├── home.blade.php
+    ├── layouts
+    ├── patterns
+    │   └── patterns.scss
+    ├── resources.json
+    └── welcome.blade.php
+```
+
 ## Laravel configuration
 In order to use the generated patterns we must tell Laravel, where to find these additional Blade templates.
 Your templates are located in `/resources/views` by default. By running `php artisan workshop:install` we add an 
-extra view path in the `view.php` config file if you chose another base folder than `views`.
+extra view path in the `config/view.php` config file if you chose another base folder than `views`.
 
 ```php{14}
 /*
@@ -39,7 +51,7 @@ extra view path in the `view.php` config file if you chose another base folder t
 ```
 
 ## Published vendor resources
-The following resourced are published:
+The following resourced are published when you run `php artisan workshop:install`:
 ```bash
 public/vendor/workshop/css/app.css
 public/vendor/workshop/images
@@ -51,4 +63,4 @@ Once you change the `WORKSHOP_BASE_PATH` in your `.env` file, you should run:
 ```php
 php artisan workshop:reconfig
 ``` 
-This will apply the correct path in `view.php` and create a new and fresh folder structure in your resources folder.
+This will apply the correct path in `config/view.php` and create a new and fresh folder structure in your resources folder.
