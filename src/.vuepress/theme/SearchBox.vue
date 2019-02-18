@@ -164,7 +164,6 @@ export default {
     color $oloidPrimary
     display inline-block
     border 1px solid darken($borderColor, 10%)
-    border-radius 2rem
     font-size 0.9rem
     line-height 2rem
     padding 0 0.5rem 0 2rem
@@ -176,11 +175,10 @@ export default {
       cursor auto
       border-color $accentColor
   .suggestions
-    background #fff
+    background $oloidDark
     width 20rem
     position absolute
     top 1.5rem
-    border 1px solid darken($borderColor, 10%)
     border-radius 6px
     padding 0.4rem
     list-style-type none
@@ -202,7 +200,7 @@ export default {
     &.focused
       background-color #f3f4f5
       a
-        color $accentColor
+        color $oloidPrimary
 
 @media (max-width: $MQNarrow)
   .search-box
