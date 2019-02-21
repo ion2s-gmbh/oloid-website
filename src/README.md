@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /hero.png
-heroText: Oloid Laravel Patternlib
-tagline: A workshop for your frontend code
+heroText: This is Oloid
+tagline: A patternlib for your laravel apps
 actionText: Let's get started
 actionLink: /introduction/
 features:
