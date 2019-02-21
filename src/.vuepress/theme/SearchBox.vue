@@ -157,20 +157,23 @@ export default {
 .search-box  
   display inline-block
   position relative
-  margin-right 1rem
+  margin-right 1rem 
+
   input
     cursor text
     width 10rem
     color $oloidPrimary
     display inline-block
-    border 1px solid darken($borderColor, 10%)
+    border: none;
+    border-bottom 1px solid darken($borderColor, 10%)
     font-size 0.9rem
     line-height 2rem
     padding 0 0.5rem 0 2rem
     outline none
     transition all .2s ease
-    background #fff url(./search.svg) 0.6rem 0.5rem no-repeat
+    background transparent url(./search.svg) 0.6rem 0.5rem no-repeat
     background-size 1rem
+    transiti on 150ms ease-in transform
     &:focus
       cursor auto
       border-color $accentColor
@@ -233,4 +236,8 @@ export default {
       width calc(100vw - 4rem)
     input:focus
       width 8rem
+      
+.no-sidebar .search-box   
+  display none
+
 </style>
