@@ -30,8 +30,11 @@ body
   right 0
   height $navbarHeight
   color: $textColor;
-  background-color $oloidPrimary
+  background-color transparent
   box-sizing border-box
+  
+  .no-sidebar & 
+    background-color $oloidPrimary
 
 .sidebar-mask
   position fixed
@@ -48,9 +51,9 @@ body
   color $textColor
   width $sidebarWidth
   position fixed
-  z-index 10
+  z-index 30
   margin 0
-  top $navbarHeight
+  top 0
   left 0
   bottom 0
   box-sizing border-box
