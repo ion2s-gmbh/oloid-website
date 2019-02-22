@@ -130,6 +130,7 @@ export default {
       color lighten($textColor, 25%)
       font-family 'Roboto Mono', monospace
   .footer
+    font-size 0.75rem
     padding 2.5rem    
     text-align center
     color lighten($textColor, 25%)
