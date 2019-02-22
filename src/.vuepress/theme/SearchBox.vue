@@ -205,7 +205,7 @@ export default {
       a
         color $oloidPrimary
 
-@media (max-width: $MQNarrow)
+@media (max-width: $MQTablet)
   .search-box
     input
       cursor pointer

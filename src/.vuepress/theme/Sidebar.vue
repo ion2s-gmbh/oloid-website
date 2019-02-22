@@ -102,7 +102,7 @@ function resolveOpenGroupIndex (route, items) {
   .sidebar-links
     padding 1.5rem 0
 
-@media (max-width: $MQMobile)
+@media (max-width: $MQNarrow)
   .sidebar
     .nav-links
       display block

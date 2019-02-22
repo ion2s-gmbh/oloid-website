@@ -140,7 +140,7 @@ export default {
     .nav-item, .repo-link
       margin-left 0
 
-@media (min-width: $MQMobile)
+@media (min-width: $MQNarrow)
   .nav-links a
     color $oloidPrimary
     
