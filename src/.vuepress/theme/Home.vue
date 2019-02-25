@@ -14,11 +14,11 @@
       </p>
 
       <p
-        class="action"
+        class="btn btn--cta"
         v-if="data.actionText && data.actionLink"
       >
         <NavLink
-          class="action-button"
+          class=""
           :item="actionLink"
         />
       </p>
