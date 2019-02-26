@@ -7,18 +7,18 @@
         alt="hero"
       >
 
-      <h1>{{ data.heroText || $title || 'Hello' }}</h1>
+      <h1 class="headline-one">{{ data.heroText || $title || 'Hello' }}</h1>
 
       <p class="description">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
 
       <p
-        class="action"
+        class="btn btn--cta"
         v-if="data.actionText && data.actionLink"
       >
         <NavLink
-          class="action-button"
+          class=""
           :item="actionLink"
         />
       </p>
@@ -130,6 +130,7 @@ export default {
       color lighten($textColor, 25%)
       font-family 'Roboto Mono', monospace
   .footer
+    font-size 0.75rem
     padding 2.5rem    
     text-align center
     color lighten($textColor, 25%)
