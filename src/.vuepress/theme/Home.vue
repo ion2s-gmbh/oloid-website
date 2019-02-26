@@ -7,21 +7,22 @@
         alt="hero"
       >
 
-      <h1 class="headline-one">{{ data.heroText || $title || 'Hello' }}</h1>
+      <div class="hero-intro">
+        
+        <h1 class="headline-one">{{ data.heroText || $title || 'Hello' }}</h1>
 
-      <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p>
+        <p class="description">
+          {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        </p>
 
-      <p
-        class="btn btn--cta"
-        v-if="data.actionText && data.actionLink"
-      >
-        <NavLink
-          class=""
-          :item="actionLink"
-        />
-      </p>
+        <p class="btn btn--cta" v-if="data.actionText && data.actionLink">
+          
+          <NavLink class="" :item="actionLink"/>
+
+        </p>
+
+      </div>
+
     </div>
 
     <div
@@ -78,9 +79,21 @@ export default {
   max-width 960px
   margin 0px auto
   .hero
-    text-align center
+    align-items center
+    display flex
+    position relative
+    
+    .hero-intro
+      align-items center
+      background alpha($oloidPrimary, 70%)
+      padding 2rem
+      position absolute
+      right 0
+      text-align left
+      
     img
-      max-height 280px
+      max-height 480px
+      max-width 100%
       display block
       margin 3rem auto 1.5rem
     h1
@@ -137,6 +150,8 @@ export default {
 
 @media (max-width: $MQMobile)
   .home
+    .hero-intro
+      text-align center
     .features
       flex-direction column
     .feature
@@ -163,4 +178,10 @@ export default {
     .feature
       h2
         font-size 1.25rem
+
+@media (min-width: $MQNarrow)
+  .home
+    .hero-intro
+      text-align left
+
 </style>
