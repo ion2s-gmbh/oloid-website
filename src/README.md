@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /demo_shot.png
 heroText: This is Oloid
 tagline: A patternlib for your laravel apps
 actionText: Let's get started
