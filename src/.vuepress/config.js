@@ -1,5 +1,4 @@
 module.exports = {
-  base: '/oloid-website/',
   dest: 'docs',
 
   themeConfig: {
