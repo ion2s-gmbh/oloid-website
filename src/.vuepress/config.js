@@ -1,7 +1,7 @@
 module.exports = {
   base: '/oloid-website/',
   dest: 'docs',
-  title: 'Oloid - The Laravel patternlib',
+  title: 'Oloid - The living desingsystem',
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com/' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Serif:700' }]

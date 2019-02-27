@@ -103,7 +103,7 @@ export default {
     .description
       font-family 'Roboto Mono', monospace
       margin 0 auto 1rem
-      max-width 35rem
+      max-width 30ch
       font-size 1.2rem
       line-height 1.3
       color lighten($textColor, 40%)
