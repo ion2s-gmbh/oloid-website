@@ -6,8 +6,8 @@ tagline: Create a living designsystem for your Laravel apps
 actionText: Let's get started
 actionLink: /introduction/
 features:
-- title: Easy to Setup
-  details: Install via composer and run one command, that’s it.
+- title: Easy to setup
+  details: Install via composer, run one command, sip your coffee or tea and then start coding.
 - title: Easy to use
   details: Create patterns from within the web GUI and reference with custom Blade directives. Work with easy-to-set-up variables and mock dynamic data.
 - title: Seamlessly integrated
