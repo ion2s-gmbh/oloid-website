@@ -127,10 +127,11 @@ export default {
     flex-wrap wrap
     align-items flex-start
     align-content stretch
-    justify-content space-between
+    justify-content center
   .feature
     flex-grow 1
     flex-basis 30%
+    padding 1rem
     max-width 30%
     h2
       font-family 'Roboto Mono', monospace

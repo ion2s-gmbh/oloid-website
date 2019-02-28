@@ -7,9 +7,9 @@ actionText: Let's get started
 actionLink: /introduction/
 features:
 - title: Easy to setup
-  details: Install via composer, run one command, sip your coffee or tea and then start coding.
+  details: Oloid is installable via composer. Simply run one command, go grab a coffee and get going.
 - title: Easy to use
-  details: Create patterns from within the web GUI and reference with custom Blade directives. Work with easy-to-set-up variables and mock dynamic data.
+  details: Create patterns and reference them with custom Blade directives. Mock dynamic data with easy-to-set-up variables.
 - title: Seamlessly integrated
   details: Build your designsystem while you are building your website or app. Simply integrate it into your project.
 - title: Status based approval
