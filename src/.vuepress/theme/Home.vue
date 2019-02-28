@@ -131,7 +131,7 @@ export default {
   .feature
     flex-grow 1
     flex-basis 30%
-    margin 1rem
+    padding 1rem
     max-width 30%
     h2
       font-family 'Roboto Mono', monospace
