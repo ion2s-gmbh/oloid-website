@@ -45,7 +45,10 @@
       class="footer"
       v-if="data.footer"
     >
-      {{ data.footer }}
+      <p>
+        {{ data.footer }}
+      </p>
+      <a href="https://www.ion2s.com/impressum/">Legal</a> &nbsp;|&nbsp; <a href="https://www.ion2s.com/datenschutz/">Privacy</a>
     </div>
   </div>
 </template>
@@ -148,6 +151,11 @@ export default {
     padding 2.5rem    
     text-align center
     color lighten($textColor, 25%)
+    a
+      color #fff
+
+    a:hover
+      color $accentColor
 
 @media (max-width: $MQMobile)
   .home
