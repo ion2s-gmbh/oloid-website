@@ -12,12 +12,6 @@
         :src="$withBase($site.themeConfig.logo)"
         :alt="$siteTitle"
       >
-      <span
-        ref="siteName"
-        class="site-name"
-        v-if="$siteTitle"
-        :class="{ 'can-hide': $site.themeConfig.logo }"
-      >{{ $siteTitle }}</span>
     </router-link>
 
     <div
@@ -122,8 +116,11 @@ $navbar-horizontal-padding = 1.5rem
       vertical-align top
     .nav-links
       flex 1
+      
+      .nav-items, a
+        margin 0 1.2rem
 
-@media (max-width: $MQMobile)
+@media (max-width: $MQNarrow)
   .navbar
     padding-left 4rem
     .can-hide

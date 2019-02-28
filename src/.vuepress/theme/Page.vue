@@ -208,9 +208,11 @@ function find (page, items, offset) {
   overflow auto
   .edit-link
     display inline-block
-    a
-      color lighten($textColor, 25%)
+    a      
+      font-family 'Roboto Mono', monospace
       margin-right 0.25rem
+      &:not(:hover) 
+        color: #aaa;
   .last-updated
     float right
     font-size 0.9em

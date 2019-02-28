@@ -140,10 +140,16 @@ export default {
     .nav-item, .repo-link
       margin-left 0
 
-@media (min-width: $MQMobile)
+@media (min-width: $MQNarrow)
   .nav-links a
+    color $oloidPrimary
+    
     &:hover, &.router-link-active
+      color $oloidPrimary
+      
+    .no-sidebar &
       color $textColor
+
   .nav-item > a:not(.external)
     &:hover, &.router-link-active
       margin-bottom -2px

@@ -7,21 +7,22 @@
         alt="hero"
       >
 
-      <h1>{{ data.heroText || $title || 'Hello' }}</h1>
+      <div class="hero-intro">
+        
+        <h1 class="headline-one">{{ data.heroText || $title || 'Hello' }}</h1>
 
-      <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p>
+        <p class="description">
+          {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        </p>
 
-      <p
-        class="action"
-        v-if="data.actionText && data.actionLink"
-      >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
-      </p>
+        <p class="btn btn--cta" v-if="data.actionText && data.actionLink">
+          
+          <NavLink class="" :item="actionLink"/>
+
+        </p>
+
+      </div>
+
     </div>
 
     <div
@@ -78,18 +79,32 @@ export default {
   max-width 960px
   margin 0px auto
   .hero
-    text-align center
+    align-items center
+    display flex
+    position relative
+    
+    .hero-intro
+      align-items center
+      background alpha($oloidPrimary, 70%)
+      padding 2rem
+      position absolute
+      right 0
+      text-align left
+      
     img
-      max-height 280px
+      max-height 480px
+      max-width 100%
       display block
       margin 3rem auto 1.5rem
     h1
       font-size 3rem
     h1, .description, .action
-      margin 1.8rem auto
+      margin 1.8rem auto 0
     .description
-      max-width 35rem
-      font-size 1.6rem
+      font-family 'Roboto Mono', monospace
+      margin 0 auto 1rem
+      max-width 30ch
+      font-size 1.2rem
       line-height 1.3
       color lighten($textColor, 40%)
     .action-button
@@ -97,6 +112,7 @@ export default {
       font-size 1.2rem
       color #fff
       background-color $accentColor
+      margin 2rem auto
       padding 0.8rem 1.6rem
       border-radius 4px
       transition background-color .1s ease
@@ -104,20 +120,21 @@ export default {
       border-bottom 1px solid darken($accentColor, 10%)
       &:hover
         background-color lighten($accentColor, 10%)
-  .features
-    border-top 1px solid $borderColor
+  .features    
     padding 1.2rem 0
     margin-top 2.5rem
     display flex
     flex-wrap wrap
     align-items flex-start
     align-content stretch
-    justify-content space-between
+    justify-content center
   .feature
     flex-grow 1
     flex-basis 30%
+    padding 1rem
     max-width 30%
     h2
+      font-family 'Roboto Mono', monospace
       font-size 1.4rem
       font-weight 500
       border-bottom none
@@ -125,14 +142,17 @@ export default {
       color lighten($textColor, 10%)
     p
       color lighten($textColor, 25%)
+      font-family 'Roboto Mono', monospace
   .footer
-    padding 2.5rem
-    border-top 1px solid $borderColor
+    font-size 0.75rem
+    padding 2.5rem    
     text-align center
     color lighten($textColor, 25%)
 
 @media (max-width: $MQMobile)
   .home
+    .hero-intro
+      text-align center
     .features
       flex-direction column
     .feature
@@ -159,4 +179,10 @@ export default {
     .feature
       h2
         font-size 1.25rem
+
+@media (min-width: $MQNarrow)
+  .home
+    .hero-intro
+      text-align left
+
 </style>

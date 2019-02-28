@@ -154,33 +154,34 @@ export default {
 <style lang="stylus">
 @import './styles/config.styl'
 
-.search-box
+.search-box  
   display inline-block
   position relative
-  margin-right 1rem
+  margin-right 1rem 
+
   input
     cursor text
     width 10rem
-    color lighten($textColor, 25%)
+    color $oloidPrimary
     display inline-block
-    border 1px solid darken($borderColor, 10%)
-    border-radius 2rem
+    border: none;
+    border-bottom 1px solid darken($borderColor, 10%)
     font-size 0.9rem
     line-height 2rem
     padding 0 0.5rem 0 2rem
     outline none
     transition all .2s ease
-    background #fff url(./search.svg) 0.6rem 0.5rem no-repeat
+    background transparent url(./search.svg) 0.6rem 0.5rem no-repeat
     background-size 1rem
+    transiti on 150ms ease-in transform
     &:focus
       cursor auto
       border-color $accentColor
   .suggestions
-    background #fff
+    background $oloidDark
     width 20rem
     position absolute
     top 1.5rem
-    border 1px solid darken($borderColor, 10%)
     border-radius 6px
     padding 0.4rem
     list-style-type none
@@ -202,9 +203,9 @@ export default {
     &.focused
       background-color #f3f4f5
       a
-        color $accentColor
+        color $oloidPrimary
 
-@media (max-width: $MQNarrow)
+@media (max-width: $MQTablet)
   .search-box
     input
       cursor pointer
@@ -235,4 +236,8 @@ export default {
       width calc(100vw - 4rem)
     input:focus
       width 8rem
+      
+.no-sidebar .search-box   
+  display none
+
 </style>

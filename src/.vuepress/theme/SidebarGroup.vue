@@ -53,12 +53,11 @@ export default {
       color inherit
 
 .sidebar-heading
-  color #999
+  color #8ea9b8
   transition color .15s ease
   cursor pointer
   font-size 1.1em
   font-weight bold
-  // text-transform uppercase
   padding 0 1.5rem
   margin-top 0
   margin-bottom 0.5rem
