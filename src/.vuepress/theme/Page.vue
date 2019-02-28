@@ -55,9 +55,13 @@
           →
         </span>
       </p>
+      <div class="footer">
+        <a href="https://www.ion2s.com/impressum/">Legal</a> &nbsp;|&nbsp; <a href="https://www.ion2s.com/datenschutz/">Privacy</a>
+      </div>
     </div>
 
     <slot name="bottom"/>
+
   </div>
 </template>
 
