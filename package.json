@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "watch": "vuepress dev src",
+    "build:production": "vuepress build src"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0"
   }
 }
