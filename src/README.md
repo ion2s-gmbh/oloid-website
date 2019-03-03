@@ -21,4 +21,7 @@ features:
 - title: Lightning fast
   details: More information and functions that speed up your development process in one place.
 footer: MIT Licensed | Copyright © 2019-present ion2s GmbH
+meta:
+    - name: twitter:card
+      content: summary
 ---
