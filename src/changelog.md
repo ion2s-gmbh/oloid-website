@@ -5,6 +5,9 @@ editLink: false
 
 # Changelog
 
+## 1.0.1
+* Fixed issue [\#6](https://github.com/ion2s-gmbh/oloid-laravel-patternlib/issues/6)
+
 ## 1.0.0
 * First main release
 * Styling of error template [\#4](https://github.com/ion2s-gmbh/oloid-laravel-patternlib/issues/4)
