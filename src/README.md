@@ -24,4 +24,10 @@ footer: MIT Licensed | Copyright © 2019-present ion2s GmbH
 meta:
     - name: twitter:card
       content: summary
+    - name: twitter:title
+      content: Oloid - The living desingsystem for Laravel
+    - name: twitter:description
+      content: Create a living designsystem for your Laravel apps
+    - name: twitter:image
+      content: https://oloid.ion2s.com/demo_shot.png
 ---
