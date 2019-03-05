@@ -5,6 +5,9 @@ editLink: false
 
 # Changelog
 
+## 1.0.2
+* Fixed issue [\#7](https://github.com/ion2s-gmbh/oloid-laravel-patternlib/issues/7)
+
 ## 1.0.1
 * Fixed issue [\#6](https://github.com/ion2s-gmbh/oloid-laravel-patternlib/issues/6)
 
