@@ -136,6 +136,10 @@ export default {
     flex-basis 30%
     padding 1rem
     max-width 30%
+    transition 150ms cubic-bezier(0.18, 0.89, 0.32, 1.28) transform
+    &:hover
+      transform  scale(1.1) translateZ(30px)      
+
     h2
       font-family 'Roboto Mono', monospace
       font-size 1.4rem
