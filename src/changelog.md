@@ -5,6 +5,9 @@ editLink: false
 
 # Changelog
 
+## 1.1.1 <Badge text="beta" type="warning"/>
+* Fixed issue [\#9](https://github.com/ion2s-gmbh/oloid-laravel-patternlib/issues/9) 
+
 ## 1.1.0 <Badge text="beta" type="warning"/>
 * Showing the current git branch in the web GUI
 
