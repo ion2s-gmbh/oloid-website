@@ -1,6 +1,6 @@
 module.exports = {
   dest: 'docs',
-  title: 'Oloid - The living desingsystem for Laravel',
+  title: 'Oloid - The living designsystem for Laravel',
   description: 'Create a living designsystem for your Laravel apps',
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com/' }],
