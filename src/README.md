@@ -25,7 +25,7 @@ meta:
     - name: twitter:card
       content: summary
     - name: twitter:title
-      content: Oloid - The living desingsystem for Laravel
+      content: Oloid - The living designsystem for Laravel
     - name: twitter:description
       content: Create a living designsystem for your Laravel apps
     - name: twitter:image
