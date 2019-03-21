@@ -137,8 +137,7 @@ export default {
     padding 1rem
     max-width 30%
     transition 150ms cubic-bezier(0.18, 0.89, 0.32, 1.28) transform
-    &:hover
-      transform  scale(1.1) translateZ(30px)      
+          
 
     h2
       font-family 'Roboto Mono', monospace
@@ -168,6 +167,7 @@ export default {
     .features
       flex-direction column
     .feature
+      margin-bottom 2rem
       max-width 100%
       padding 0 2.5rem
 
@@ -196,5 +196,10 @@ export default {
   .home
     .hero-intro
       text-align left
+      
+@media (min-width: $MQTablet)
+  .home
+    .feature:hover
+      transform  scale(1.1) translateZ(30px)
 
 </style>
