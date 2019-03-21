@@ -27,8 +27,10 @@ Make a change within a single component and see those changes reflected througho
 * Opensource.
 
 ## We call it workshop
-We call the developer GUI **workshop**. It's a place, where you craft your website with a lot of tools, that support 
-your creative workflow.
+When we mention the developer GUI itself we are speaking of the **workshop**.
+
+Imagine this as your workbench, where you experiment and explore ideas. 
+It's a place, where you craft your website until it's production ready.
 
 ## What is a pattern?
 You might know partials or subviews. Think of patterns as reusable template snippets (partials) that you can use in 
