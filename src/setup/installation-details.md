@@ -51,7 +51,7 @@ extra view path in the `config/view.php` config file if you chose another base f
 ```
 
 ## Published vendor resources
-The following resourced are published when you run `php artisan workshop:install`:
+The following resources are published when you run `php artisan workshop:install`:
 ```bash
 public/vendor/workshop/css/app.css
 public/vendor/workshop/images
